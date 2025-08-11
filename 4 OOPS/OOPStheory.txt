@@ -1,0 +1,51 @@
+There are 4 pillars of OOPS
+
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+
+1. ENCAPSULATION - It is defined as the wrapping of DATA and METHOD under a single unit. It also implements data handeling.
+2. INHERITANCE  - Inheritance is when properties & methods of base class are passed to derived class.
+3. POLYMORPHISM - Try to achieve same thing in multiple forms.
+                - Method overloading / compile time / static 
+                - Method overriding  / run time     / dynamic
+4. ABSTRACTION  - Abstract means thought 
+                - Hiding all the unecessary details and showing only important things to the user.
+                - Abstract classes 
+                - Interfaces   - blueprint for class
+EXTRA INFO      - Class        - blueprint for object
+
+
+INTERFACES -
+
+Need of interfaces
+1. Multiple inheritance
+2. Total abstraction
+
+- All methods are public abstarct and without implementation
+- Used to achieve total abstraction
+- Variables in the interface are final, public and static 
+
+
+Difference Between Interface and Class
+
+Parameter        | Interface                   | Class
+------------------------------------------------------------
+Keyword          | interface                   | class
+Inheritance      | implements                  | extends
+Multiple Inherit | Supports multiple           | Single only (unless abstract)
+Methods          | Abstract by default         | Can have concrete & abstract
+Fields           | Public, static, final only  | Can be private, protected, etc.
+Object Creation  | Cannot instantiate          | Can be instantiated
+Usage            | Defines behavior (contract) | Defines structure & behavior
+
+
+AGGREGATION - 
+
+
+PACKAGES IN JAVA - 
+
+A package is a group of similar types of classes,interfaces and sub-packages.
+- inbuilt packages
+- user defined packages
