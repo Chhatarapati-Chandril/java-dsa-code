@@ -9,6 +9,10 @@ import java.util.Stack;
 // Sample Input 1 : /a/..
 // Sample Output 1 : /
 
+
+// Time Complexity : o(n)
+// Space Complexity: o(1)
+
 public class Q2 
 {
     public static String simplifyPath(String path)

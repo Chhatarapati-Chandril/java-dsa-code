@@ -7,6 +7,9 @@ import java.util.Stack;
 // Input : A->B->C->B->A
 // Output : Yes It is Palindrome
 
+// Time Complexity : o(n)
+// Space Complexity: o(n)
+
 public class Q1 
 {
     public static class Node
