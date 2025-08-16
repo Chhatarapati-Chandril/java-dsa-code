@@ -10,17 +10,17 @@ public class QueueUsingLinkedList {
     }
     static class Queue
     {
-        static Node head = null;
-        static Node tail = null;
+        Node head = null;
+        Node tail = null;
 
         // isEmpty
-        public static boolean isEmpty()
+        public boolean isEmpty()
         {
             return (head == null & tail == null);
         }
 
         // add - O(1)
-        public static void add(int data)
+        public void add(int data)
         {
             Node newNode = new Node(data);
             if (head == null) {
@@ -32,7 +32,7 @@ public class QueueUsingLinkedList {
         }
 
         // remove - O(1)
-        public static int remove()
+        public int remove()
         {
             if (isEmpty()) {
                 System.out.println("Empty queue");
@@ -50,7 +50,7 @@ public class QueueUsingLinkedList {
         }
 
         // peek - O(1)
-        public static int peek()
+        public int peek()
         {
             if(isEmpty()){
                 System.out.println("Empty queuue");
