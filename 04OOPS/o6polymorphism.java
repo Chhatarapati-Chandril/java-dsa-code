@@ -12,6 +12,8 @@ public class o6polymorphism
 
         Deer d = new Deer();
         d.eat();
+
+        Animal s = new Deer();
     }
 }
 /*

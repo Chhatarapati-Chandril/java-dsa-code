@@ -1,3 +1,5 @@
+// Given an integer array nums, find the subarray with the largest sum, and return its sum.
+
 public class subarray_1_bruteforce                    //O(n^3)
 {
     public static void subarray(int array[])
@@ -22,7 +24,7 @@ public class subarray_1_bruteforce                    //O(n^3)
     }
     public static void main(String args[])
     {
-        int array[]={1,2,3,4,5};
+        int array[]={1, -2, 6, -1, 3};
         subarray(array);
     }
 }

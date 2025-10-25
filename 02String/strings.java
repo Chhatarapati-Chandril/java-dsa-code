@@ -14,7 +14,7 @@ public class strings               // STRINGS ARE -> IMMUTABLE ....CAN'T CHANGE
         String largest=fruits[0];
         for (int i = 1; i < fruits.length; i++) 
         {
-            if (largest.compareTo(fruits[i]) < 0)               // compareTo func to compare strings
+            if (largest.compareTo(fruits[i]) < 0)          // compareTo func to compare strings
             {
                 largest = fruits[i];
             }

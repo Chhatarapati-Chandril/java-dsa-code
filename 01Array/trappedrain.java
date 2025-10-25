@@ -4,6 +4,7 @@ where the width of each bar is 1, compute how much water it
 can trap after raining.
 */
 
+// Auxilary arrays
 
 public class trappedrain
 {
@@ -14,7 +15,7 @@ public class trappedrain
 
         int leftmax[]=new int[n];
         leftmax[0]=height[0];
-        for (int i=1;i<n;i--)
+        for (int i=1;i<n;i++)
         {
             leftmax[i]=Math.max(height[i],leftmax[i-1]);
         }
@@ -28,6 +29,7 @@ public class trappedrain
             rightmax[i]=Math.max(height[i],rightmax[i+1]);  
         }
 
+        // calc water level and trapped water 
         int trapwater=0;
         for (int i=1;i<n;i++)
         {
@@ -41,6 +43,6 @@ public class trappedrain
     {
         int height[]={4,2,0,6,3,2,5};
         rain(height);
-        System.out.println("rain(height[])");
+        System.out.println(rain(height));
     }
 }
