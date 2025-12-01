@@ -1,6 +1,6 @@
-// Find and print all the subsets of a given array
+// Find and print all the permutations of a given array
 // "abc"
-// a, b, c, ab, bc, ac, abc
+// abc acb bac bca cab cba
 
 public class StringPermutation 
 {

@@ -11,6 +11,7 @@ public class o2GetterSetter
         System.out.println(p1.getTip());
 
         p1.setColor("Yellow");
+        
         System.out.println(p1.getColor());
     }
 }
