@@ -1,4 +1,4 @@
-import java.util.Stack;
+import java.util.*;
 
 // Simplify Path
 // We hava an absolute path for a file (Unix-style), simplify it. Note that absolute path always begin

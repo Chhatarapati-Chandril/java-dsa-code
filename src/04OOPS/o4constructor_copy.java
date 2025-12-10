@@ -27,8 +27,6 @@ public class o4constructor_copy
     }
 }
 
-@SuppressWarnings("unused")
-
 class Student
 {
     String name;
@@ -47,7 +45,6 @@ class Student
     // }
 
     //deep copy constructor
-    @SuppressWarnings("ManualArrayToCollectionCopy")
     
     Student(Student s1)
     {

@@ -1,4 +1,3 @@
-@SuppressWarnings("unused")
 public class o3constructor
 {
     public static void main(String args[])

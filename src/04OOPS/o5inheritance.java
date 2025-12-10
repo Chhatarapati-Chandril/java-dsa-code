@@ -10,9 +10,7 @@ public class o5inheritance
 }
 //base class
 class Animal
-{
-    @SuppressWarnings("unused")
-    
+{   
     String color;
     void eat()
     {

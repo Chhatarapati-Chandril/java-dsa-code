@@ -21,7 +21,7 @@ public class o1OOPS
         myAcc.setPassword("qwerty123");
     }
 }
-@SuppressWarnings("unused")
+
 class BankAccount
 {
     public String username;

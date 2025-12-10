@@ -1,7 +1,6 @@
 import java.util.*;
 public class NumberGuess
 {
-    @SuppressWarnings("resource")
     public static void main(String args[])
     {
         Random random=new Random();
