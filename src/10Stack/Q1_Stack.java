@@ -9,7 +9,7 @@ import java.util.*;
 // Time Complexity : o(n)
 // Space Complexity: o(n)
 
-public class Q1 
+public class Q1_Stack 
 {
     public static class Node
     {

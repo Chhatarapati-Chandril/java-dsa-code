@@ -1,3 +1,23 @@
+//base class
+class Animals
+{   
+    String color;
+    void eat()
+    {
+        System.out.println("eats");
+    }
+}
+//Derived class
+class Mammal extends Animals
+{
+    int legs;
+}
+class Dog extends Mammal
+{
+
+}
+
+
 public class o5inheritance
 {
     public static void main(String[] args) 
@@ -7,24 +27,6 @@ public class o5inheritance
         dobby.legs=4;
         System.out.println(dobby.legs);
     }
-}
-//base class
-class Animal
-{   
-    String color;
-    void eat()
-    {
-        System.out.println("eats");
-    }
-}
-//Derived class
-class Mammal extends Animal
-{
-    int legs;
-}
-class Dog extends Mammal
-{
-
 }
 
 /*

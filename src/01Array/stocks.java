@@ -10,7 +10,7 @@
 
 public class stocks
 {
-    public static int stocks(int price[])
+    public static int stock(int price[])
     { 
        int buyprice=price[0];
        int maxprofit=0;
@@ -31,6 +31,6 @@ public class stocks
     public static void main(String args[])
     {
         int price[]={1,2,3,4,5,6,7,8,9};
-        System.out.println(stocks(price));
+        System.out.println(stock(price));
     }
 }

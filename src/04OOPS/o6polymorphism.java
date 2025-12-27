@@ -8,10 +8,10 @@ public class o6polymorphism
         System.out.println(calc.sum(2,1,2));
 
         Animal a = new Animal();
-        a.eat();
+        a.eats();
 
         Deer d = new Deer();
-        d.eat();
+        d.eats();
 
         Animal s = new Deer();
     }
@@ -41,7 +41,7 @@ parent and child class both contain same function with different defination
 */
 class Animal
 {
-    void eat()
+    void eats()
     {
         System.out.println("eats anything");
     }

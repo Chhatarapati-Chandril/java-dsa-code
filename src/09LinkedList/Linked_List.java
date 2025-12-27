@@ -1,4 +1,4 @@
-public class LinkedList
+public class Linked_List
 {
 
     public static class Node 
@@ -406,7 +406,7 @@ public class LinkedList
 
     public static void main(String[] args) {
 
-        LinkedList ll = new LinkedList();
+        Linked_List ll = new Linked_List();
 
         ll.addFirst(5);
         ll.addFirst(4);
@@ -438,7 +438,7 @@ public class LinkedList
 
 
 // --------------------------------------------- basic ---------------------------------------------
-        // LinkedList ll = new LinkedList();
+        // Linked_List ll = new Linked_List();
 
         // ll.addFirst(2);
         // ll.addFirst(1);
@@ -447,15 +447,15 @@ public class LinkedList
         // ll.add(2, 3);
 
         // ll.print();
-        // System.out.println("Size: "+LinkedList.size);
+        // System.out.println("Size: "+Linked_List.size);
         
         // ll.removeFirst();
         // ll.print();
-        // System.out.println("Size: "+LinkedList.size);
+        // System.out.println("Size: "+Linked_List.size);
 
         // ll.removeLast();
         // ll.print();
-        // System.out.println("Size: "+LinkedList.size);
+        // System.out.println("Size: "+Linked_List.size);
 
         // System.out.println(ll.iterativeSearch(3));
         // System.out.println(ll.iterativeSearch(50));

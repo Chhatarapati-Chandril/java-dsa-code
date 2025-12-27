@@ -5,7 +5,7 @@
 // such that a given string can be partitioned into X balanced substring. 
 // A string is called to be balanced if the number of 'L's in the string equals the number of 'R's.
 
-public class Q1 {
+public class Q1_Greedy {
 
     public static int BalancedPartition(String str, int n){
         if (n == 0)    return 0;

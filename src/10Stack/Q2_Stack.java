@@ -13,7 +13,7 @@ import java.util.*;
 // Time Complexity : o(n)
 // Space Complexity: o(1)
 
-public class Q2 
+public class Q2_Stack 
 {
     public static String simplifyPath(String path)
     {

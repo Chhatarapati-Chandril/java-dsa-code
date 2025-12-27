@@ -6,15 +6,15 @@ public class o10super
         System.out.println(h.color);
     }
 }
-class Animal
+class Animal__
 {
     String color;
-    Animal()
+    Animal__()
     {
         System.out.println("Animal constructor is called...");
     }
 }
-class Horse extends Animal
+class Horse extends Animal__
 {
     Horse()
     {

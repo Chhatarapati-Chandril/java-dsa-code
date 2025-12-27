@@ -3,25 +3,25 @@ public class o7abstractClasses
     public static void main(String[] args) 
     {
         Mustang myHorse = new Mustang();
-        // Animal -> Horse -> Mustang
+        // Animal_ -> Horse -> Mustang
     }
 }
 
-abstract class Animal       // can't create object of abstract class
+abstract class Animal_      // can't create object of abstract class
 {
     String color;
-    Animal()
+    Animal_()
     {
-        System.out.println("Animal constructor called...");
+        System.out.println("Animal_ constructor called...");
         color="brown";  // horse will be of "brown" color by default until we change its color
     }
     abstract void walk(); // no implementation of walk()
     // as we created a abstarct method - walk(),
     // if we create a sub class, its compulsory to add walk () in its sub-classes
 }
-class Horse extends Animal
+class Horses extends Animal_
 {
-    Horse()
+    Horses()
     {
         System.out.println("Horse constructor called...");
     }
@@ -35,7 +35,7 @@ class Horse extends Animal
         System.out.println("walk on 4 legs");
     }
 }
-class Mustang extends Horse
+class Mustang extends Horses
 {
     Mustang()
     {

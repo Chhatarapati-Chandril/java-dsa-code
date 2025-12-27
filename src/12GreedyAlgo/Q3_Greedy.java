@@ -4,7 +4,7 @@
 // the task is to print the lexiographically the smallest string of length N (in lower-case)
 // such that the sum of characters of the string equals to K where a=1, b=2, ... z=26
 
-public class Q3 {
+public class Q3_Greedy {
     public static void main(String[] args) {
         int n = 5;
         int k = 42;

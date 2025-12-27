@@ -1,22 +1,4 @@
-public class o2GetterSetter
-{
-    public static void main(String args[])
-    {
-        Pen p1 = new Pen(); // created a pen object called p1
-
-        p1.setColor("Blue");
-        System.out.println(p1.getColor());
-
-        p1.setTip(5);
-        System.out.println(p1.getTip());
-
-        p1.setColor("Yellow");
-        
-        System.out.println(p1.getColor());
-    }
-}
-
-class Pen
+class Pencil
 {
     private String color;
     private int tip;
@@ -38,6 +20,28 @@ class Pen
         this.tip=newTip;
     }
 }
+
+
+public class o2GetterSetter
+{
+    
+    public static void main(String args[])
+    {
+        Pencil p1 = new Pencil(); // created a pencil object called p1
+
+        p1.setColor("Blue");
+        System.out.println(p1.getColor());
+
+        p1.setTip(5);
+        System.out.println(p1.getTip());
+
+        p1.setColor("Yellow");
+        
+        System.out.println(p1.getColor());
+    }
+}
+
+
 /*
 Get : to return the value
 Set : to modify the value

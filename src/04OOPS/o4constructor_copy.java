@@ -2,17 +2,17 @@ public class o4constructor_copy
 {
     public static void main(String args[])
     {
-        Student s1 = new Student();
-        s1.name="Chandril";
-        s1.roll=123;
-        s1.password="abcd";
-        s1.marks[0]=10;
-        s1.marks[1]=9;
-        s1.marks[2]=8;
+        Student__ s1 = new Student__();
+        // s1.name="Chandril";
+        // s1.roll=123;
+        // s1.password="abcd";
+        // s1.marks[0]=10;
+        // s1.marks[1]=9;
+        // s1.marks[2]=8;
 
-        Student s2 = new Student(s1);  //values of s1 are copied to s2 
-        s2.password="xyz";  
-        s1.marks[2]=100; 
+        Student__ s2 = new Student__(s1);  //values of s1 are copied to s2 
+        // s2.password="xyz";  
+        // s1.marks[2]=100; 
     /* 
     Values of s1 are copied to s2
     Then we think if we make any changes in s1 after copying, it will not affect s2
@@ -20,14 +20,14 @@ public class o4constructor_copy
     Becuase when the array was created, s1 refers to that array and after copying, s2 also refers to that array.
     So any changes in the array will be seen in the objects refering it
     */
-        for (int i=0;i<3;i++)   // to print marks of Student s2
+        for (int i=0;i<3;i++)   // to print marks of Student__ s2
         {
             System.out.println(s2.marks[i]);
         }
     }
 }
 
-class Student
+class Student__
 {
     String name;
     int roll;
@@ -36,7 +36,7 @@ class Student
 
     //shallow copy constructor
     
-    // Student(Student s1)
+    // Student__(Student__ s1)
     // {
     //     marks = new int[3];
     //     this.name=s1.name;
@@ -46,7 +46,7 @@ class Student
 
     //deep copy constructor
     
-    Student(Student s1)
+    Student__(Student__ s1)
     {
         marks = new int[3];
         this.name=s1.name;
@@ -57,7 +57,7 @@ class Student
         }
     }
     
-    Student()
+    Student__()
     {
         marks = new int[3];
         System.out.println("Constructor is called...");

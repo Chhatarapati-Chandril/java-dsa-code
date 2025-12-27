@@ -2,17 +2,17 @@ public class o9static
 {
     public static void main(String[] args) 
     {
-        Student s1 = new Student();
-        s1.school = "DAV";
+        Students s1 = new Students();
+        s1.schoolname = "DAV";
 
-        Student s2 = new Student();
-        System.out.println(s2.school);
+        Students s2 = new Students();
+        System.out.println(s2.schoolname);
     }
 }
-class Student 
+class Students 
 {
     String name;
-    static String school;
+    static String schoolname;
 }
 
 /*

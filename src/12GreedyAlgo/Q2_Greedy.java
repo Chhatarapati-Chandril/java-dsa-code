@@ -4,7 +4,7 @@
 // and a number K, the task is to find Kth largest odd number.
 // if k > (num of odd num in that range L to R), then return 0
 
-public class Q2 {
+public class Q2_Greedy {
 
     public static int kthodd(int[] range, int k){
         int l = range[0];
