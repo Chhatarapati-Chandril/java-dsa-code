@@ -1,0 +1,45 @@
+
+STRING:
+s.length()                       // length
+s.charAt(i)                      // char at index
+s.substring(l) / s.substring(l,r)// slice
+s.replace("a","b")               // replace all
+s.replaceFirst("a","b")          // replace first
+s.replaceAll("\\d","")           // regex replace
+s.split("\\.")                   // split (regex)
+s.contains("abc")                // check substring
+s.indexOf('a') / s.lastIndexOf() // search
+s.toLowerCase() / s.toUpperCase()
+s.equals(t) / s.equalsIgnoreCase(t)
+s.trim()                         // remove leading/trailing spaces
+s.toCharArray()                  // string → char[]
+
+STRINGBUILDER:
+new StringBuilder()
+sb.append(x)                     // add
+sb.insert(i,x)                   // insert
+sb.deleteCharAt(i)               // delete
+sb.delete(l,r)                   // delete range
+sb.reverse()                     // reverse
+sb.length()
+sb.toString()
+
+ARRAY:
+arr.length                       // size
+Arrays.sort(arr)                 // sort
+Arrays.fill(arr, x)              // fill
+Arrays.copyOf(arr, n)            // copy
+Arrays.equals(a,b)               // compare
+Arrays.toString(arr)             // print
+System.arraycopy(src,i,dst,j,n)  // fast copy
+
+ITERATION:
+for (int i=0;i<arr.length;i++)
+for (char c : s.toCharArray())
+for (int x : arr)
+
+CONVERSIONS:
+Integer.parseInt(s)              // string → int
+String.valueOf(x)                // int → string
+char c = (char)(x + '0')         // int → char
+int x = c - '0'                  // char → int
